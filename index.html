@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>画像アップロード</title>
+    <title>画像のアップロード</title>
 </head>
 <body>
-    <h2>画像をアップロード</h2>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*">
-        <input type="submit" value="アップロード">
-    </form>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" id="image">
+    <input type="submit" value="アップロード" name="submit">
+</form>
+
 </body>
 </html>
